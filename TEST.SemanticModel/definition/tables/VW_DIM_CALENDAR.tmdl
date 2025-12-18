@@ -1,0 +1,373 @@
+table VW_DIM_CALENDAR
+	lineageTag: e29b4899-7362-4e6b-b9f5-7fc7b374e0e0
+
+	column CALENDAR_SK
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: f4e973b7-f9bb-4cd5-8a9f-d0daec2f8096
+		summarizeBy: sum
+		sourceColumn: CALENDAR_SK
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CALENDARDATE
+		dataType: dateTime
+		isNullable: false
+		formatString: Long Date
+		sourceProviderType: date
+		lineageTag: fa9b7031-21a4-40a0-aa5b-8e8fc258c844
+		summarizeBy: none
+		sourceColumn: CALENDARDATE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DATE_TIME
+		dataType: dateTime
+		isNullable: false
+		formatString: Long Date
+		sourceProviderType: date
+		lineageTag: cee28f00-64dd-4c8b-b350-2ca86fb510de
+		summarizeBy: none
+		sourceColumn: DATE_TIME
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DAY_OF_WEEK
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: 6bf68a1d-b4ad-4d6c-b403-6f98628a9089
+		summarizeBy: sum
+		sourceColumn: DAY_OF_WEEK
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DAY_OF_MONTH
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: de07a9a3-730a-435f-8ed0-619b8cbcb046
+		summarizeBy: sum
+		sourceColumn: DAY_OF_MONTH
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DAY_OF_YEAR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: ec230c43-c5c7-485d-991a-6da2d7ff5db5
+		summarizeBy: sum
+		sourceColumn: DAY_OF_YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DAY_OF_CALENDAR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: 355ba5ea-fd1a-4e4f-aebc-d981a2336b8c
+		summarizeBy: sum
+		sourceColumn: DAY_OF_CALENDAR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column WEEK_OF_YEAR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: 159ce422-dacd-4702-bfb6-d880c9b3065a
+		summarizeBy: sum
+		sourceColumn: WEEK_OF_YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MONTH_OF_YEAR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: 85d41bbb-1dd5-40ba-9223-f5a5838e5350
+		summarizeBy: sum
+		sourceColumn: MONTH_OF_YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column QUARTERNUMBER
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: 2bc04a12-26a8-44f9-9a85-ee47bc6e7bba
+		summarizeBy: sum
+		sourceColumn: QUARTERNUMBER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YEAR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(4, 0)
+		lineageTag: 298e2a34-4478-4d77-8ed2-825671fbcead
+		summarizeBy: sum
+		sourceColumn: YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YEAR_MONTH_CD
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: 8a22936e-c8ea-48f0-a082-125bbd6700db
+		summarizeBy: sum
+		sourceColumn: YEAR_MONTH_CD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ISO_DAYOF_WEEK
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: aa2c0621-1979-4415-a5a4-9ac6564faba3
+		summarizeBy: sum
+		sourceColumn: ISO_DAYOF_WEEK
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column WEEKNR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: e712d398-c480-43e3-bcfb-4e6d288683a4
+		summarizeBy: sum
+		sourceColumn: WEEKNR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ISO_YEAR_WEEK
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: e9b390e5-1714-4c6d-819e-6cf43006731b
+		summarizeBy: sum
+		sourceColumn: ISO_YEAR_WEEK
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ISO_YEAR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(4, 0)
+		lineageTag: 79561600-a281-4371-a796-be2fb022f805
+		summarizeBy: sum
+		sourceColumn: ISO_YEAR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column YEAR_QUARTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(20)
+		lineageTag: 01191b4b-eb4d-4d88-b25e-0b0404876d35
+		summarizeBy: none
+		sourceColumn: YEAR_QUARTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column YEAR_MONTH
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(24)
+		lineageTag: 538f45db-aea7-4659-8b4f-ae57060c460b
+		summarizeBy: none
+		sourceColumn: YEAR_MONTH
+
+		annotation SummarizationSetBy = Automatic
+
+	column MONTH
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(3)
+		lineageTag: 3cb6f857-c452-411a-b336-99e758329c12
+		summarizeBy: none
+		sourceColumn: MONTH
+
+		annotation SummarizationSetBy = Automatic
+
+	column WEEK
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(50)
+		lineageTag: 03c01d6a-7364-4842-b22c-a22d926f8861
+		summarizeBy: none
+		sourceColumn: WEEK
+
+		annotation SummarizationSetBy = Automatic
+
+	column MONTH_FILTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: b59c8d72-d56b-4714-bf88-92ac444f1f64
+		summarizeBy: none
+		sourceColumn: MONTH_FILTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAY_FILTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 847d526c-46a1-4267-8130-378bc2e29df7
+		summarizeBy: none
+		sourceColumn: DAY_FILTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column WEEK_FILTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 09a03dab-cad9-4b68-b5fd-492f813a936b
+		summarizeBy: none
+		sourceColumn: WEEK_FILTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column R12
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(24)
+		lineageTag: dea6c994-778a-4a50-950d-ce64a8c910dd
+		summarizeBy: none
+		sourceColumn: R12
+
+		annotation SummarizationSetBy = Automatic
+
+	column R6
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(24)
+		lineageTag: 41086292-924e-4655-9c6d-050d5b780c82
+		summarizeBy: none
+		sourceColumn: R6
+
+		annotation SummarizationSetBy = Automatic
+
+	column DAY_NR
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(2, 0)
+		lineageTag: 2d54fe33-2cc0-40e7-a4d6-bb36d5b53f3d
+		summarizeBy: sum
+		sourceColumn: DAY_NR
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MONTHYEAR_SORT
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: c4c0d81b-7a35-4687-8ad2-17dcc0d8446d
+		summarizeBy: sum
+		sourceColumn: MONTHYEAR_SORT
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column QUARTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(11)
+		lineageTag: 4f488fb7-0d2b-4202-8d3b-722b1d2a0699
+		summarizeBy: none
+		sourceColumn: QUARTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column YEAR_FILTER_EOY
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 1ecf5f71-b18e-43cf-b491-8a56a3b07891
+		summarizeBy: none
+		sourceColumn: YEAR_FILTER_EOY
+
+		annotation SummarizationSetBy = Automatic
+
+	column YEAR_FILTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: cb7e2305-69ef-4d93-833e-6bba8029af54
+		summarizeBy: none
+		sourceColumn: YEAR_FILTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column QUARTER_FILTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: efdef276-4ba1-4d7f-8eac-dbafbcb03040
+		summarizeBy: none
+		sourceColumn: QUARTER_FILTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column IUDATE
+		dataType: dateTime
+		isNullable: false
+		formatString: General Date
+		sourceProviderType: datetime2
+		lineageTag: 967175b9-6917-4885-bce5-2fc5539b433b
+		summarizeBy: none
+		sourceColumn: IUDATE
+
+		annotation SummarizationSetBy = Automatic
+
+	partition VW_DIM_CALENDAR = m
+		mode: directQuery
+		source =
+				let
+				    Source = Snowflake.Databases("volvocars-enterprise.snowflakecomputing.com","DEV_AMER_ANALYST_WHS",[Implementation="2.0"]),
+				    PROD_AMER_DB_Database = Source{[Name="PROD_AMER_DB",Kind="Database"]}[Data],
+				    NEWCAR_Schema = PROD_AMER_DB_Database{[Name="NEWCAR",Kind="Schema"]}[Data],
+				    VW_DIM_CALENDAR_View = NEWCAR_Schema{[Name="VW_DIM_CALENDAR",Kind="View"]}[Data]
+				in
+				    VW_DIM_CALENDAR_View
+

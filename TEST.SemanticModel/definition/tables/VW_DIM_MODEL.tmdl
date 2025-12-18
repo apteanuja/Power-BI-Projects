@@ -1,0 +1,215 @@
+table VW_DIM_MODEL
+	lineageTag: 096828af-ab1b-4723-ac82-b5b66d81ad2d
+
+	column MODEL_SK
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: 45504422-b077-4797-8122-67e1b0a2b754
+		summarizeBy: none
+		sourceColumn: MODEL_SK
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CARTYPE_CD
+		dataType: string
+		sourceProviderType: nvarchar(6)
+		lineageTag: ceeaed53-462a-4810-ad9a-977233954797
+		summarizeBy: none
+		sourceColumn: CARTYPE_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARTYPE_DESC
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: 296b960c-f46f-4f2d-9cd6-90c430066fb2
+		summarizeBy: none
+		sourceColumn: CARTYPE_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARTYPE_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: d9fafa5f-41e1-46c2-942d-4c1f5f0356eb
+		summarizeBy: none
+		sourceColumn: CARTYPE_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PROJECT
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: a10229f0-aa1c-463b-985b-bcb7fd2d3d82
+		summarizeBy: none
+		sourceColumn: PROJECT
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROJECT_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: 51dc24e5-fca9-46a2-a705-5d601b9db806
+		summarizeBy: none
+		sourceColumn: PROJECT_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PLATFORM
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: 384bface-3333-4283-8b54-2bce57a9919f
+		summarizeBy: none
+		sourceColumn: PLATFORM
+
+		annotation SummarizationSetBy = Automatic
+
+	column PLATFORM_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: c368dd28-cc15-4e00-80d2-3e442ef86498
+		summarizeBy: none
+		sourceColumn: PLATFORM_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MODEL
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: 0d704985-b080-447b-9d78-c6841796044b
+		summarizeBy: none
+		sourceColumn: MODEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODEL_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: 8aab302b-a436-4ae7-b3f2-b6211b0f0d53
+		summarizeBy: none
+		sourceColumn: MODEL_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VEHICLE_CLUSTER
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: 700aea2c-1198-4ad3-9162-f964ea6715a4
+		summarizeBy: none
+		sourceColumn: VEHICLE_CLUSTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column VEHICLE_CLUSTER_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: 835610e0-0c20-4bfd-9f01-0e8f480ae6c8
+		summarizeBy: none
+		sourceColumn: VEHICLE_CLUSTER_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VEHICLE_CLUSTER_CD
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: becbb5d7-d994-45d3-91e0-cc2e2b027186
+		summarizeBy: none
+		sourceColumn: VEHICLE_CLUSTER_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARLINE
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: e500fc08-e77a-41c8-8ee8-61544c72d572
+		summarizeBy: none
+		sourceColumn: CARLINE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CARLINE_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: ddb38ce2-6e4a-4c3b-9bf1-c412127141c1
+		summarizeBy: none
+		sourceColumn: CARLINE_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SEGMENT
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: 420fb469-6e3e-47b1-b95d-c6b088c3cce2
+		summarizeBy: none
+		sourceColumn: SEGMENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SEGMENT_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: 02c172d5-00e3-4c6d-b27d-fc3b557f5c18
+		summarizeBy: none
+		sourceColumn: SEGMENT_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MODEL_GROUP
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: 4870660d-2a66-4e75-866e-ea5935c2314b
+		summarizeBy: none
+		sourceColumn: MODEL_GROUP
+
+		annotation SummarizationSetBy = Automatic
+
+	column MODEL_GROUP_SORTORDER
+		dataType: double
+		sourceProviderType: decimal(10, 0)
+		lineageTag: 65192eaf-7aea-4066-8682-1c88f6a11e8d
+		summarizeBy: none
+		sourceColumn: MODEL_GROUP_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IUDATE
+		dataType: dateTime
+		isNullable: false
+		formatString: General Date
+		sourceProviderType: datetime2
+		lineageTag: bc603f42-87c8-4164-8ce4-fb64a8c4f94d
+		summarizeBy: none
+		sourceColumn: IUDATE
+
+		annotation SummarizationSetBy = Automatic
+
+	partition VW_DIM_MODEL = m
+		mode: directQuery
+		source =
+				let
+				    Source = Snowflake.Databases("volvocars-enterprise.snowflakecomputing.com","DEV_AMER_ANALYST_WHS",[Implementation="2.0"]),
+				    PROD_AMER_DB_Database = Source{[Name="PROD_AMER_DB",Kind="Database"]}[Data],
+				    NEWCAR_Schema = PROD_AMER_DB_Database{[Name="NEWCAR",Kind="Schema"]}[Data],
+				    VW_DIM_MODEL_View = NEWCAR_Schema{[Name="VW_DIM_MODEL",Kind="View"]}[Data]
+				in
+				    VW_DIM_MODEL_View
+

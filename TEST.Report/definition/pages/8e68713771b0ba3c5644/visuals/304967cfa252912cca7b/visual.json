@@ -1,0 +1,314 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "304967cfa252912cca7b",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 526.93143938759442,
+    "width": 1280.2787316370459,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VW_DIM_ORGANIZATION"
+                    }
+                  },
+                  "Property": "COUNTRY_NAME"
+                }
+              },
+              "queryRef": "VW_DIM_ORGANIZATION.COUNTRY_NAME",
+              "nativeQueryRef": "COUNTRY_NAME",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VW_DIM_MODEL"
+                    }
+                  },
+                  "Property": "CARLINE"
+                }
+              },
+              "queryRef": "VW_DIM_MODEL.CARLINE",
+              "nativeQueryRef": "CARLINE",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VW_DIM_MODEL"
+                    }
+                  },
+                  "Property": "MODEL"
+                }
+              },
+              "queryRef": "VW_DIM_MODEL.MODEL",
+              "nativeQueryRef": "MODEL",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "VW_FACT_SALES"
+                        }
+                      },
+                      "Property": "WHOLESALE"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(VW_FACT_SALES.WHOLESALE)",
+              "nativeQueryRef": "WHOLESALE"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "VW_FACT_SALES"
+                        }
+                      },
+                      "Property": "RETAILDELIVERY"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(VW_FACT_SALES.RETAILDELIVERY)",
+              "nativeQueryRef": "Sum of RETAILDELIVERY"
+            }
+          ]
+        }
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "VW_DIM_MODEL.CARLINE"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "VW_DIM_MODEL"
+                    }
+                  },
+                  "Property": "CARLINE"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "VW_DIM_MODEL.MODEL"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'C-LINE'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'M-LINE'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'S-LINE'"
+                  }
+                }
+              ],
+              "isToggled": true
+            }
+          ]
+        }
+      }
+    ],
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "0acf0e8f93e33b958b56",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_DIM_MODEL"
+              }
+            },
+            "Property": "CARLINE"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "8c46843e4f99814a0824",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_DIM_MODEL"
+              }
+            },
+            "Property": "MODEL"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "67e79cd55d59271eeb01",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "VW_FACT_SALES"
+                  }
+                },
+                "Property": "WHOLESALE"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "499cc12609ce145ee151",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "VW_FACT_SALES"
+                  }
+                },
+                "Property": "RETAILDELIVERY"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "09b27b82daa64186c6ae",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "VW_DIM_ORGANIZATION"
+              }
+            },
+            "Property": "COUNTRY_NAME"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "v",
+              "Entity": "VW_DIM_ORGANIZATION",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "v"
+                          }
+                        },
+                        "Property": "COUNTRY_NAME"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Canada'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'United States'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+table VW_DIM_ORGANIZATION
+	lineageTag: c6037f86-470c-4258-be46-b7e69659b8bc
+
+	column ORGANIZATION_SK
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: 245c872c-d1be-45b8-8e43-7e46f7e570cd
+		summarizeBy: none
+		sourceColumn: ORGANIZATION_SK
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DEALER_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(20)
+		lineageTag: 2243ec6f-f9f3-4deb-a859-826ad8380a2a
+		summarizeBy: none
+		sourceColumn: DEALER_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DEALER_DESC
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 49079470-3f66-4264-a499-8e9f816bffa6
+		summarizeBy: none
+		sourceColumn: DEALER_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column DISTRIBUTOR_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(20)
+		lineageTag: 29499b32-fb26-4f8b-ac74-12078d4c3f00
+		summarizeBy: none
+		sourceColumn: DISTRIBUTOR_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column DISTRIBUTOR_DESC
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 6a01aa3e-6285-4331-8e1f-ad1d12b6e213
+		summarizeBy: none
+		sourceColumn: DISTRIBUTOR_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column MARKET_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(10)
+		lineageTag: ace70677-793d-4359-a952-63fc0bd27cd5
+		summarizeBy: none
+		sourceColumn: MARKET_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column MARKET_DESC
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 31998e1b-4853-407c-992f-a248af1888a3
+		summarizeBy: none
+		sourceColumn: MARKET_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column SALESAREA
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: b08be508-68c8-4d8b-9347-f89cadad2ed0
+		summarizeBy: none
+		sourceColumn: SALESAREA
+
+		annotation SummarizationSetBy = Automatic
+
+	column SALESAREA_SORTORDER
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: 4a90ac7a-9685-46ef-83fb-458c65f993a1
+		summarizeBy: none
+		sourceColumn: SALESAREA_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column REGION
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: efb15561-02c7-4253-b9ec-3aade03864e7
+		summarizeBy: none
+		sourceColumn: REGION
+
+		annotation SummarizationSetBy = Automatic
+
+	column REGION_SORTORDER
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: f406eca4-dac3-4612-97e4-358f7e06dc50
+		summarizeBy: none
+		sourceColumn: REGION_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column COUNTRY_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(200)
+		lineageTag: 111bf708-3e86-49d2-960f-f27502d8c646
+		summarizeBy: none
+		sourceColumn: COUNTRY_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column COUNTRY_NAME
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(200)
+		lineageTag: 134ec8a9-158c-4175-bb3a-d38a0b6f8bfe
+		summarizeBy: none
+		sourceColumn: COUNTRY_NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column PUBLIC_COUNTRY
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(200)
+		lineageTag: 9251a571-e264-4c9c-ba9c-d3a86e5209fe
+		summarizeBy: none
+		sourceColumn: PUBLIC_COUNTRY
+
+		annotation SummarizationSetBy = Automatic
+
+	column PUBLIC_COUNTRY_CLUSTER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(200)
+		lineageTag: f4bd27fd-db83-4122-8192-1d9bfd0ea5d6
+		summarizeBy: none
+		sourceColumn: PUBLIC_COUNTRY_CLUSTER
+
+		annotation SummarizationSetBy = Automatic
+
+	column PUBLIC_COUNTRY_CLUSTER_SORTORDER
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: f9d307eb-cbc1-44c2-8e52-e5a686deedc6
+		summarizeBy: none
+		sourceColumn: PUBLIC_COUNTRY_CLUSTER_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PUBLIC_REGION
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(200)
+		lineageTag: 52b26489-6741-40fe-acc6-e33b467540dd
+		summarizeBy: none
+		sourceColumn: PUBLIC_REGION
+
+		annotation SummarizationSetBy = Automatic
+
+	column PUBLIC_REGION_SORTORDER
+		dataType: double
+		isNullable: false
+		sourceProviderType: decimal(38, 0)
+		lineageTag: 18e4aaf8-cdd5-4d10-8592-6b6eb43d410d
+		summarizeBy: none
+		sourceColumn: PUBLIC_REGION_SORTORDER
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column OWNER
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 9dae09b8-2465-4cf8-b33c-641c17370e2d
+		summarizeBy: none
+		sourceColumn: OWNER
+
+		annotation SummarizationSetBy = Automatic
+
+	column AREA_LEVEL1
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: eee13c38-c165-4c71-bf33-4052db77c808
+		summarizeBy: none
+		sourceColumn: AREA_LEVEL1
+
+		annotation SummarizationSetBy = Automatic
+
+	column AREA_LEVEL2
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 3d0d540f-c81f-4612-8ca9-43b993101272
+		summarizeBy: none
+		sourceColumn: AREA_LEVEL2
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATE
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: 381b8a54-54f0-405b-be53-558afa983096
+		summarizeBy: none
+		sourceColumn: STATE
+
+		annotation SummarizationSetBy = Automatic
+
+	column POSTAL_CODE
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: e7471b5e-b2cf-43d2-b30a-22265bbe799f
+		summarizeBy: none
+		sourceColumn: POSTAL_CODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column PARMA_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: fa61db05-4acf-499c-96ec-08a1388f05d1
+		summarizeBy: none
+		sourceColumn: PARMA_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column PARMA_PARTNER_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(128)
+		lineageTag: cacf9269-ea63-4a18-9298-3617a2336878
+		summarizeBy: none
+		sourceColumn: PARMA_PARTNER_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column ADDRESS
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(500)
+		lineageTag: 5e298b8d-1f1b-421e-a573-cb2b503bb8ac
+		summarizeBy: none
+		sourceColumn: ADDRESS
+
+		annotation SummarizationSetBy = Automatic
+
+	column CITY
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(100)
+		lineageTag: e562efed-55b7-4abd-a782-d53691a3230a
+		summarizeBy: none
+		sourceColumn: CITY
+
+		annotation SummarizationSetBy = Automatic
+
+	column LATITUDE
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(128)
+		lineageTag: 958dad3e-fd9f-440c-8180-7ce13eaf9f17
+		summarizeBy: none
+		sourceColumn: LATITUDE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LONGITUDE
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(128)
+		lineageTag: d1866534-7433-487d-ba2e-f93fec1dcb0d
+		summarizeBy: none
+		sourceColumn: LONGITUDE
+
+		annotation SummarizationSetBy = Automatic
+
+	column RETAILER_FLAG
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 1fb051a7-ae91-4fae-9f96-14d60abd47b7
+		summarizeBy: none
+		sourceColumn: RETAILER_FLAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column REPAIRER_FLAG
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 79033790-216c-4ea2-b143-f71949ed20ea
+		summarizeBy: none
+		sourceColumn: REPAIRER_FLAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column ACTIVE_FLAG
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 0473fdbf-cdd7-46ee-bc8f-1a2fb106f990
+		summarizeBy: none
+		sourceColumn: ACTIVE_FLAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column TERMINATED_FLAG
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		sourceProviderType: bit
+		lineageTag: 676142b8-bcce-4eb2-98f1-4c49834702ce
+		summarizeBy: none
+		sourceColumn: TERMINATED_FLAG
+
+		annotation SummarizationSetBy = Automatic
+
+	column RETAILER_GROUP_LEVEL1
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: d131bdc4-ad6a-4c2d-bb57-5879e110bec5
+		summarizeBy: none
+		sourceColumn: RETAILER_GROUP_LEVEL1
+
+		annotation SummarizationSetBy = Automatic
+
+	column RETAILER_GROUP_LEVEL2
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		lineageTag: badb9f20-db19-4176-8c37-0119e15d05f7
+		summarizeBy: none
+		sourceColumn: RETAILER_GROUP_LEVEL2
+
+		annotation SummarizationSetBy = Automatic
+
+	column BRAND_CD
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(128)
+		lineageTag: f0e37271-b413-4a23-b34b-b18068e8881f
+		summarizeBy: none
+		sourceColumn: BRAND_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column BRAND_DESC
+		dataType: string
+		isNullable: false
+		sourceProviderType: nvarchar(128)
+		lineageTag: a95b539a-8211-4c76-8368-458016d2a149
+		summarizeBy: none
+		sourceColumn: BRAND_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column IUDATE
+		dataType: dateTime
+		isNullable: false
+		formatString: General Date
+		sourceProviderType: datetime2
+		lineageTag: d3db3fcc-3c1e-4c3f-9c33-f2806dcab12e
+		summarizeBy: none
+		sourceColumn: IUDATE
+
+		annotation SummarizationSetBy = Automatic
+
+	partition VW_DIM_ORGANIZATION = m
+		mode: directQuery
+		source =
+				let
+				    Source = Snowflake.Databases("volvocars-enterprise.snowflakecomputing.com","DEV_AMER_ANALYST_WHS",[Implementation="2.0"]),
+				    PROD_AMER_DB_Database = Source{[Name="PROD_AMER_DB",Kind="Database"]}[Data],
+				    NEWCAR_Schema = PROD_AMER_DB_Database{[Name="NEWCAR",Kind="Schema"]}[Data],
+				    VW_DIM_ORGANIZATION_View = NEWCAR_Schema{[Name="VW_DIM_ORGANIZATION",Kind="View"]}[Data]
+				in
+				    VW_DIM_ORGANIZATION_View
+
