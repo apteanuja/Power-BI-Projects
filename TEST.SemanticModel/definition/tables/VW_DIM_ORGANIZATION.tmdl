@@ -6,7 +6,7 @@ table VW_DIM_ORGANIZATION
 		isNullable: false
 		sourceProviderType: decimal(38, 0)
 		lineageTag: 245c872c-d1be-45b8-8e43-7e46f7e570cd
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: ORGANIZATION_SK
 
 		annotation SummarizationSetBy = Automatic
@@ -88,7 +88,7 @@ table VW_DIM_ORGANIZATION
 		isNullable: false
 		sourceProviderType: decimal(38, 0)
 		lineageTag: 4a90ac7a-9685-46ef-83fb-458c65f993a1
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: SALESAREA_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -110,7 +110,7 @@ table VW_DIM_ORGANIZATION
 		isNullable: false
 		sourceProviderType: decimal(38, 0)
 		lineageTag: f406eca4-dac3-4612-97e4-358f7e06dc50
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: REGION_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -162,7 +162,7 @@ table VW_DIM_ORGANIZATION
 		isNullable: false
 		sourceProviderType: decimal(38, 0)
 		lineageTag: f9d307eb-cbc1-44c2-8e52-e5a686deedc6
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: PUBLIC_COUNTRY_CLUSTER_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -184,7 +184,7 @@ table VW_DIM_ORGANIZATION
 		isNullable: false
 		sourceProviderType: decimal(38, 0)
 		lineageTag: 18e4aaf8-cdd5-4d10-8592-6b6eb43d410d
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: PUBLIC_REGION_SORTORDER
 
 		annotation SummarizationSetBy = Automatic

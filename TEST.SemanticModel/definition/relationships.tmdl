@@ -1,8 +1,0 @@
-relationship fee723fb-af8b-0ae5-c8be-bfc96caaa567
-	fromColumn: VW_FACT_SALES.ORGANIZATION_SK
-	toColumn: VW_DIM_ORGANIZATION.ORGANIZATION_SK
-
-relationship c0eb6752-065d-1ce8-59f8-80bb61627513
-	fromColumn: VW_FACT_SALES.MODEL_SK
-	toColumn: VW_DIM_MODEL.MODEL_SK
-

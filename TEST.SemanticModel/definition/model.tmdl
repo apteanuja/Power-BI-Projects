@@ -8,13 +8,12 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["VW_DIM_MODEL","VW_DIM_ORGANIZATION","VW_FACT_SALES","VW_DIM_CALENDAR"]
+annotation PBI_QueryOrder = ["VW_DIM_MODEL","VW_DIM_ORGANIZATION","VW_DIM_CALENDAR"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table VW_DIM_MODEL
 ref table VW_DIM_ORGANIZATION
-ref table VW_FACT_SALES
 ref table VW_DIM_CALENDAR
 
 ref cultureInfo en-US
