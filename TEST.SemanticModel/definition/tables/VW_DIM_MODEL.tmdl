@@ -6,7 +6,7 @@ table VW_DIM_MODEL
 		isNullable: false
 		sourceProviderType: decimal(38, 0)
 		lineageTag: 45504422-b077-4797-8122-67e1b0a2b754
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: MODEL_SK
 
 		annotation SummarizationSetBy = Automatic
@@ -35,7 +35,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: d9fafa5f-41e1-46c2-942d-4c1f5f0356eb
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: CARTYPE_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -55,7 +55,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: 51dc24e5-fca9-46a2-a705-5d601b9db806
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: PROJECT_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -75,7 +75,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: c368dd28-cc15-4e00-80d2-3e442ef86498
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: PLATFORM_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -95,7 +95,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: 8aab302b-a436-4ae7-b3f2-b6211b0f0d53
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: MODEL_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -115,7 +115,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: 835610e0-0c20-4bfd-9f01-0e8f480ae6c8
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: VEHICLE_CLUSTER_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -144,7 +144,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: ddb38ce2-6e4a-4c3b-9bf1-c412127141c1
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: CARLINE_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -164,7 +164,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: 02c172d5-00e3-4c6d-b27d-fc3b557f5c18
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: SEGMENT_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
@@ -184,7 +184,7 @@ table VW_DIM_MODEL
 		dataType: double
 		sourceProviderType: decimal(10, 0)
 		lineageTag: 65192eaf-7aea-4066-8682-1c88f6a11e8d
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: MODEL_GROUP_SORTORDER
 
 		annotation SummarizationSetBy = Automatic
